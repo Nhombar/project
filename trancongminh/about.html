@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            padding: 64px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both
+        }
+
+        .column-66 {
+            float: left;
+            width: 66.66666%;
+            padding: 20px;
+        }
+
+        .column-33 {
+            float: left;
+            width: 33.33333%;
+            padding: 20px;
+        }
+
+        .large-font {
+            font-size: 48px;
+        }
+
+        .xlarge-font {
+            font-size: 64px
+        }
+
+        .button {
+            border: none;
+            color: white;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+        }
+
+        img {
+            display: block;
+            height: auto;
+            max-width: 100%;
+        }
+
+        @media screen and (max-width: 1000px) {
+
+            .column-66,
+            .column-33 {
+                width: 100%;
+                text-align: center;
+            }
+
+            img {
+                margin: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="text-align:center">
+        <h2>Responsive Zig Zag Layout Example</h2>
+        <p>Resize the browser window to see the effect.</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="column-66">
+                <h1 class="xlarge-font"><b>Nhóm trưởng</b></h1>
+                <h2 class="large-font" style="color:mediumaquamarine;"><b>Nguyễn Đắc Dụng</b></h2>
+                <p><span style="font-size:24px">Giới thiệu về Nhóm trưởng.</p>
+                <a href="thongtin/NguyenDacDung/templatecv.html"><button class="button"
+                        style="background-color: red;">Xem CV</button></a>
+            </div>
+            <div class="column-33">
+                <img src="aa29c9e27553745f2882bf91e9136d4d.jpg" width="1000px" height="500">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="column-66">
+                <h1 class="xlarge-font"><b>Nhóm phó</b></h1>
+                <h2 class="large-font" style="color:mediumaquamarine;"><b>Đỗ Đình Phong</b></h2>
+                <p><span style="font-size:24px">Giới thiệu về Nhóm phó.</p>
+                <a href="thongtin/DoDinhPhong/templatecv1.html"><button class="button"
+                        style="background-color: red;">Xem CV</button></a>
+            </div>
+            <div class="column-33">
+                <img src="0dbb7a50282baf5797ca132a28be955d.jpg" width="1000px" height="500">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="column-66">
+                <h1 class="xlarge-font"><b>Báo cáo viên</b></h1>
+                <h2 class="large-font" style="color:mediumaquamarine;"><b>Trần Anh Tuấn</b></h2>
+                <p><span style="font-size:24px">Giới thiệu về Báo cáo viên.</p>
+                <a href="thongtin/TranAnhTuan/template3.html"><button class="button"
+                        style="background-color: red;">Xem CV</button></a>
+            </div>
+            <div class="column-33">
+                <img src="hinh-anh-meo-hai-huoc-3.jpg" width="1000px" height="500">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="column-66">
+                <h1 class="xlarge-font"><b>Tổ viên</b></h1>
+                <h2 class="large-font" style="color:mediumaquamarine;"><b>Nguyễn Tiến Thịnh</b></h2>
+                <a href="thongtin/NguyenTienThinh/template2.html"><button class="button"
+                        style="background-color: red;">Xem CV</button></a>
+            </div>
+            <div class="column-33">
+                <img src="Hinh-anh-meo-ngau-nhat (6).jpg" width="1000px" height="500">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="column-66">
+                <h1 class="xlarge-font"><b>Tổ viên</b></h1>
+                <h2 class="large-font" style="color:mediumaquamarine;"><b>Trần Công Minh</b></h2>
+                <a href="thongtin/TranCongMinh/template4.html"><button class="button"
+                        style="background-color: red;">Xem CV</button></a>
+            </div>
+            <div class="column-33">
+                <img src="Ảnh-mèo-khóc-siêu-cute.jpg" width="1000px" height="500">
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+
+</body>
+
+</html>
